@@ -17,5 +17,3 @@ RUN \
 WORKDIR /postgresql-client
 
 USER postgresql-client
-
-ENTRYPOINT ["psql"]
