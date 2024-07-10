@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk add --no-cache postgresql-client
+RUN apk add --no-cache postgresql-client openssl
 
 ARG PUID=1000
 ARG PGID=1000
